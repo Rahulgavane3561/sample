@@ -1,4 +1,4 @@
-pipeline {
+File is modyfieying pipeline {
     agent any
 
     stages {
