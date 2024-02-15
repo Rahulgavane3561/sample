@@ -1,8 +1,8 @@
 ghjgjhgFile is modyfieying pipeline {
     agent any
 hjkjkjhkjh
-    stages {klkl;
-        stage('Build') {
+    stages {klkl;iuoiu
+        stage('Build') {ghghjg
             steps {
                 echo 'Hello Build'
                 echo 'Hi Bhai'
