@@ -1,7 +1,7 @@
 ghjgjhgFile is modyfieying pipeline {
     agent any
 hjkjkjhkjh
-    stages {
+    stages {klkl;
         stage('Build') {
             steps {
                 echo 'Hello Build'
