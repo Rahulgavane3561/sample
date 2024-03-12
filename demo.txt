@@ -3,7 +3,7 @@ some ddkld ghjgjhgFile is modyfieying pipeline {
 hjkjkjhkjh
     stages {klkl;iuoiu
         stage('Build') {ghghjg
-            steps {xkhjhd anothet
+            steps {xkhjhd anothet some other
                 echo 'Hello Build'
                 echo 'Hi Bhai'
             }sdlsk
