@@ -6,7 +6,7 @@ hjkjkjhkjh
             steps {xkhjhd anothet
                 echo 'Hello Build'
                 echo 'Hi Bhai'
-            }
+            }sdlsk
         }
         stage('Test') {
             steps {
