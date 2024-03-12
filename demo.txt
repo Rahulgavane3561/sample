@@ -1,5 +1,5 @@
 ddkld ghjgjhgFile is modyfieying pipeline {
-    agent any
+    agent any sosms
 hjkjkjhkjh
     stages {klkl;iuoiu
         stage('Build') {ghghjg
