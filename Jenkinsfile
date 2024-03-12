@@ -4,31 +4,29 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello Build'
-                echo 'Hi Bhai'
+                echo 'Build'
             }
         }
+       
         stage('Test') {
             steps {
-                echo 'Hello Build'
-                echo 'Hi Bhai'
+                echo 'Test'
             }
         }
+       
         stage('Deployee') {
             steps {
-                echo 'Hello Build'
-                echo 'Hi Bhai'
+                echo 'Deployee'
             }
         }
     }
-    
-    post {
-        always {
-            echo 'This will always execute'
+    post{
+        always{
+            emailext body: 'hi', subject: 'From Jenkins', to: 'rahulgavane65@gmail.com'
         }
-        failure {
-            echo 'This will only execute if there is a failure'
-            emailext body: 'Bhai', subject: 'Hello', to: 'rahulgavane65@gmail.com'
+        failure{
+            echo "This will executes whem fails"
+            emailext body: 'Fail', subject: 'From Jenkins fails', to: 'rahulgavane65@gmail.com'
         }
     }
 }
